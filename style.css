@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(198, 248, 248, 0.356);
+}
+
+h1 {
+    text-align: center;
+    font-size: 350%;
+    color: rgb(0, 72, 105);
+    margin-bottom: 5px;
+}
+
+h2 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(79, 0, 143);
+}
+
+.sec1,
+.sec2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec1{
+    height: 200px;
+}
+.tab1 {
+    font-size: 1em;
+    font-weight: 300;
+    padding: 3px;
+    width: 40em;
+    border: 2px solid rgba(72, 0, 167, 0.5);
+}
+
+.tabhd {
+    background-color: rgba(0, 0, 255, 0.5);
+    color: rgb(0, 66, 66);
+}
+
+.tabby {
+    color: rgb(29, 29, 29);
+    background-color: rgba(128, 226, 226, 0.5);
+}
+
+.tabft {
+    color: rgb(29, 29, 29);
+    background-color: rgba(149, 248, 215, 0.5);
+}
+
+.sec2 {
+    height: 90px;
+}
+.tab2 {
+    height: 70px;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 3px;
+    width: 40em;
+    border: 2px solid rgba(72, 0, 167, 0.5);
+}
+
+h1:hover{
+    color: aqua;
+}
